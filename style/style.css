@@ -563,7 +563,7 @@ footer svg {
 .circle-container {
     width: 8rem;
     height: 8rem;
-    background-color: rgb(234, 234, 234);
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
