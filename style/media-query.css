@@ -1,0 +1,145 @@
+@media screen and (min-width: 750px) {
+
+    .burger-menu-container {
+        display: none;
+    }
+
+    .corner-menu,
+    .center-menu {
+        display: flex;
+    }
+
+    .main-start {
+        height: 72rem;
+    }
+
+    .main-start-content p:nth-child(1) {
+        font-size: 5rem;
+    }
+
+    .main-start-content p:nth-child(2) {
+        font-size: 2.5rem;
+    }
+
+    .main-start-content p:nth-child(3) {
+        font-size: 2.5rem;
+    }
+
+    /* .email-form { */
+    /* top: 30%; */
+    /* left: 10%; */
+    /* width: 80%; */
+    /* height: 40%; */
+    /* } */
+
+    .services-item {
+        width: 360px;
+    }
+
+    .services-item-main li {
+        font-size: 1.8rem;
+    }
+
+    .button-container {
+        margin-top: 1.7rem;
+    }
+
+    .worksample-grid-container {
+        grid-template-columns: 340px 340px;
+        gap: 5rem;
+    }
+
+    .worksample-grid-container div a {
+        bottom: 40%;
+        opacity: 0;
+        transition: opacity .2s linear, outline-offset .2s ease-in-out;
+        z-index: -1;
+        outline: 2px solid #038eeb;
+    }
+
+    .worksample-grid-container div:hover a {
+        opacity: 1;
+        z-index: 2;
+    }
+
+    .about-me p{
+        font-size: 1.5rem;
+    }
+
+    .big-div{
+        width: 400px;
+    }
+    .content{
+        margin: 2rem auto;
+    }
+}
+
+@media screen and (min-width: 850px) {
+
+    .menu {
+        font-size: 1.5rem;
+    }
+
+    .corner-menu {
+        justify-content: space-evenly;
+    }
+
+    .sign-in .btn-container{
+        width: 65%;
+    }
+
+    footer svg {
+        margin: 5rem 0 -5rem 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header {
+        padding: 1rem 5rem 1rem 1rem;
+        margin: 0 auto;
+        width: 85%;
+        height: 65px;
+    }
+
+    .menu {
+        font-size: 1.7rem;
+        width: 85%;
+    }
+
+    .corner-menu li svg {
+        margin: 0rem .3rem 0 0;
+    }
+
+    .sign-in {
+        width: 420px;
+        height: 370px;
+        margin-top: -170px;
+        margin-left: -230px;
+    }
+
+    .sign-in h3{
+        font-size: 2.5rem;
+    }
+
+    .input-container input{
+        height: 37px;
+    }
+
+    .services {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .services-item {
+        margin-bottom: 0;
+    }
+
+    .web-service {
+        margin-bottom: 0;
+    }
+
+    .worksample-grid-container {
+        grid-template-columns: 340px 340px 340px;
+        gap: 5rem;
+    }
+}

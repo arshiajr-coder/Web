@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+      <link rel="stylesheet" href="style/style.css" />
+      <link rel="stylesheet" href="style/about-me.css" />
+      <link rel="stylesheet" href="style/media-query.css" />
+      <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+      />
+      <title>Document</title>
+    </head>
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo-container">
+          <img
+            src="assets/images/logo.png"
+            alt="website logo"
+            class="logo-img"
+          />
+          <a href="#" class="logo-text">arshiaweb.ir</a>
+        </div>
+        <nav class="menu">
+          <div class="burger-menu-container">
+            <i class="material-icons" onclick="burger_click()">menu</i>
+            <div class="burger-open">
+              <ul class="burger-items">
+                <li>
+                  <a onclick="signIn()">ثبت نام / ورود</a>
+                  <a onclick="signIn()">
+                    <svg
+                      viewBox="0 0 24 24"
+                      width="24"
+                      height="24"
+                      fill="currentColor"
+                      class="ml-1 text-grays-500"
+                      data-v-4af0ee40=""
+                    >
+                      <path
+                        d="M17.25 12.75A3.75 3.75 0 0 1 21 16.5v3.75a.75.75 0 0 1-.75.75H3.75a.75.75 0 0 1-.75-.75V16.5a3.75 3.75 0 0 1 3.75-3.75h10.5Zm0 1.5H6.75A2.25 2.25 0 0 0 4.5 16.5v3h15v-3a2.25 2.25 0 0 0-2.118-2.246l-.132-.004ZM12 3a4.5 4.5 0 1 1 0 9 4.5 4.5 0 1 1 0-9Zm0 1.5a3 3 0 1 0-.001 5.999A3 3 0 0 0 12 4.5Z"
+                        fill-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </a>
+                </li>
+                <li class="line"></li>
+                <li>
+                  <a href="index.html">صفحه اصلی</a>
+                  <a>
+                    <svg
+                      viewBox="0 0 24 24"
+                      width="1.5em"
+                      fill="currentColor"
+                      class="ml-1"
+                      data-v-4af0ee40=""
+                    >
+                      <path
+                        d="M6.75 21C4.682 21 3 18.982 3 16.5a.75.75 0 0 1 .75-.75H6l.006-11.146a.75.75 0 0 1 .011-.264C6.19 3.563 6.904 3 7.714 3a1.74 1.74 0 0 1 1.698 1.34c.016.077.11.16.23.16.124 0 .215-.082.232-.16.173-.777.887-1.34 1.698-1.34.81 0 1.524.563 1.696 1.34.018.077.111.16.232.16.12 0 .214-.083.232-.16.172-.777.886-1.34 1.696-1.34.811 0 1.525.563 1.697 1.34.018.078.11.16.232.16.121 0 .215-.083.231-.16A1.74 1.74 0 0 1 19.285 3a1.74 1.74 0 0 1 1.686 1.295.752.752 0 0 1 .029.203V18.75a2.253 2.253 0 0 1-2.118 2.246L18.75 21h-12ZM19.285 4.5c-.122 0-.214.083-.232.165C18.881 5.439 18.168 6 17.357 6c-.81 0-1.524-.561-1.696-1.335-.018-.082-.11-.165-.233-.165-.122 0-.214.083-.232.165C15.024 5.439 14.312 6 13.5 6c-.81 0-1.523-.561-1.697-1.335-.017-.082-.109-.165-.231-.165-.122 0-.215.083-.233.165C11.167 5.439 10.453 6 9.643 6c-.811 0-1.524-.561-1.696-1.335-.018-.082-.11-.165-.233-.165-.094 0-.17.05-.208.11L7.5 15.75h8.249a.75.75 0 0 1 .75.75c0 1.6.943 2.91 2.127 2.996l.123.004a.75.75 0 0 0 .75-.75V4.62a.245.245 0 0 0-.215-.12Zm-4.233 12.75H4.571c.25 1.293 1.133 2.25 2.179 2.25h9.207a4.891 4.891 0 0 1-.905-2.25Zm-1.556-6a.75.75 0 1 1 0 1.5H9.75a.75.75 0 1 1 0-1.5h3.747Zm3.754-3a.75.75 0 1 1 0 1.5H9.748a.75.75 0 1 1 0-1.5h7.502Z"
+                        fill-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <ul class="center-menu">
+            <li>
+              <a href="index.html">صفحه اصلی</a>
+            </li>
+            <li>
+              <a href="#services">خدمات</a>
+            </li>
+            <li>
+              <a href="#work-samples">نمونه کار</a>
+            </li>
+            <li>
+              <a href="#contact">راه های ارتباطی</a>
+            </li>
+          </ul>
+          <ul class="corner-menu">
+            <li>
+              <a onclick="signIn()">ثبت نام / ورود</a>
+              <a onclick="signIn()">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  class="ml-1 text-grays-500"
+                  data-v-4af0ee40=""
+                >
+                  <path
+                    d="M17.25 12.75A3.75 3.75 0 0 1 21 16.5v3.75a.75.75 0 0 1-.75.75H3.75a.75.75 0 0 1-.75-.75V16.5a3.75 3.75 0 0 1 3.75-3.75h10.5Zm0 1.5H6.75A2.25 2.25 0 0 0 4.5 16.5v3h15v-3a2.25 2.25 0 0 0-2.118-2.246l-.132-.004ZM12 3a4.5 4.5 0 1 1 0 9 4.5 4.5 0 1 1 0-9Zm0 1.5a3 3 0 1 0-.001 5.999A3 3 0 0 0 12 4.5Z"
+                    fill-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="aboutMe.html">درباره من</a>
+              <a href="aboutMe.html">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="1.5em"
+                  fill="currentColor"
+                  class="ml-1"
+                  data-v-4af0ee40=""
+                >
+                  <path
+                    d="M6.75 21C4.682 21 3 18.982 3 16.5a.75.75 0 0 1 .75-.75H6l.006-11.146a.75.75 0 0 1 .011-.264C6.19 3.563 6.904 3 7.714 3a1.74 1.74 0 0 1 1.698 1.34c.016.077.11.16.23.16.124 0 .215-.082.232-.16.173-.777.887-1.34 1.698-1.34.81 0 1.524.563 1.696 1.34.018.077.111.16.232.16.12 0 .214-.083.232-.16.172-.777.886-1.34 1.696-1.34.811 0 1.525.563 1.697 1.34.018.078.11.16.232.16.121 0 .215-.083.231-.16A1.74 1.74 0 0 1 19.285 3a1.74 1.74 0 0 1 1.686 1.295.752.752 0 0 1 .029.203V18.75a2.253 2.253 0 0 1-2.118 2.246L18.75 21h-12ZM19.285 4.5c-.122 0-.214.083-.232.165C18.881 5.439 18.168 6 17.357 6c-.81 0-1.524-.561-1.696-1.335-.018-.082-.11-.165-.233-.165-.122 0-.214.083-.232.165C15.024 5.439 14.312 6 13.5 6c-.81 0-1.523-.561-1.697-1.335-.017-.082-.109-.165-.231-.165-.122 0-.215.083-.233.165C11.167 5.439 10.453 6 9.643 6c-.811 0-1.524-.561-1.696-1.335-.018-.082-.11-.165-.233-.165-.094 0-.17.05-.208.11L7.5 15.75h8.249a.75.75 0 0 1 .75.75c0 1.6.943 2.91 2.127 2.996l.123.004a.75.75 0 0 0 .75-.75V4.62a.245.245 0 0 0-.215-.12Zm-4.233 12.75H4.571c.25 1.293 1.133 2.25 2.179 2.25h9.207a4.891 4.891 0 0 1-.905-2.25Zm-1.556-6a.75.75 0 1 1 0 1.5H9.75a.75.75 0 1 1 0-1.5h3.747Zm3.754-3a.75.75 0 1 1 0 1.5H9.748a.75.75 0 1 1 0-1.5h7.502Z"
+                    fill-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <form action="/" class="sign-in">
+        <h3>ورود به اکانت</h3>
+        <div class="input-container">
+          <input type="text" placeholder="example@gmail.com" />
+          <div class="icon-container">
+            <i class="material-icons">mail_outline</i>
+          </div>
+        </div>
+        <div class="input-container">
+          <input type="text" placeholder="Password" />
+          <div class="icon-container"><i class="material-icons">lock</i></div>
+        </div>
+        <div class="btn-container">
+          <a class="btn btn-third" onclick="">ورود</a>
+          <a class="btn btn-third" onclick="">بازگردانی رمز</a>
+        </div>
+      </form>
+    </header>
+    <main class="content">
+      <section class="about-me">
+        <h2>درباره من</h2>
+        <p>
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
+          از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و
+          سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
+          متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه
+          درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با
+          نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان
+          خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد
+        </p>
+      </section>
+      <section class="education">
+        <h2>تحصیلات</h2>
+        <div class="container">
+          <div class="education-content">
+            <i class="fa-sharp fa-solid fa-graduation-cap"></i>
+            <p>دانش آموز پایه یازدهم</p>
+          </div>
+          <div class="education-content">
+            <i class="fa-sharp fa-solid fa-graduation-cap"></i>
+            <p>رشته ریاضی</p>
+          </div>
+          <div class="education-content">
+            <i class="fa-sharp fa-solid fa-graduation-cap"></i>
+            <p>مدرسه نمونه دولتی</p>
+          </div>
+        </div>
+      </section>
+      <section class="abillity">
+        <h2>مهارت ها</h2>
+        <div class="abillity-content">
+          <div class="item">
+            <p class="Html">Html</p>
+            <div class="big-div"><div class="small-div html"></div></div>
+          </div>
+          <div class="item">
+            <p class="Css">Css</p>
+            <div class="big-div"><div class="small-div css"></div></div>
+          </div>
+          <div class="item">
+            <p class="Bootstrap">Bootstrap</p>
+            <div class="big-div"><div class="small-div bootstrap"></div></div>
+          </div>
+          <div class="item">
+            <p class="Material-UI">Material UI</p>
+            <div class="big-div"><div class="small-div material"></div></div>
+          </div>
+          <div class="item">
+            <p class="Js">Js</p>
+            <div class="big-div"><div class="small-div js"></div></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
